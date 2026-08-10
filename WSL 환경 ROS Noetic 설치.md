@@ -11,13 +11,13 @@ wsl --install -d Ubuntu-20.04
 ```
 또는 Microsoft Store에서 Ubuntu 20.04 LTS를 직접 설치하세요.
 
-##1. 필수 패키지 설치
+## 1. 필수 패키지 설치
 ```bash
 sudo apt update
 sudo apt install curl gnupg2 lsb-release -y
 ```
 
-##2. ROS 키 등록
+## 2. ROS 키 등록
 
 ```bash
 curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' \
