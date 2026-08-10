@@ -4,8 +4,7 @@
 
 터미널에서 실행
 
-```
-`bash
+````bash
 sudo apt update
 sudo apt upgrade -y
 ```
