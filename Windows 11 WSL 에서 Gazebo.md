@@ -16,6 +16,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt install -y gazebo11 libgazebo11-dev
 ```
+
 3. DISPLAY 환경변수 확인
 
 WSLg에서는 자동으로 DISPLAY 변수가 설정됩니다. 확인해보세요:
@@ -26,5 +27,7 @@ echo $DISPLAY
 보통 :0 형태로 잡혀 있으면 정상입니다.
 
 4. Gazebo 실행
-bash
+
+```bash
 gazebo
+```
