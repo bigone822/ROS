@@ -35,3 +35,16 @@ echo "deb [arch=amd64 signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] htt
 sudo apt update
 sudo apt install ros-noetic-desktop-full
 ```
+
+5. 환경 변수 설정
+
+``` bash
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+
+## 설치확인
+
+``` bash
+rosversion -d
+```
