@@ -50,3 +50,11 @@ source ~/.bashrc
 ``` bash
 rosversion -d
 ```
+
+---
+```bash
+roscore
+```
+→ ROS Master가 실행되면 환경이 제대로 구축된 것입니다.
+
+
