@@ -1,4 +1,4 @@
-#1. WSL에 Ubuntu 20.04 설치
+# 1. WSL에 Ubuntu 20.04 설치
 
 ROS Noetic을 쓰려면 반드시 Ubuntu 20.04 (focal)가 필요합니다.
 
@@ -10,7 +10,7 @@ wsl --install -d Ubuntu-20.04
 또는 Microsoft Store에서 Ubuntu 20.04 LTS를 직접 설치하세요.
 
 
-#2. 새 Ubuntu 20.04 환경에서 ROS Noetic 설치
+# 2. 새 Ubuntu 20.04 환경에서 ROS Noetic 설치
 
 앞서 말씀드린 키 등록 및 저장소 추가 과정을 다시 진행하면 됩니다:
 
