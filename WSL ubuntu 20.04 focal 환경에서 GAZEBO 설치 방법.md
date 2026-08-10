@@ -8,7 +8,7 @@
 sudo apt update
 sudo apt upgrade -y
 ```
-02 Gazebo 저장소 추가
+# 02 Gazebo 저장소 추가
 
 Gazebo 공식 패키지를 설치하기 위해 저장소를 등록합니다.
 
