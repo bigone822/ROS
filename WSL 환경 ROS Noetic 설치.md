@@ -1,5 +1,7 @@
 # 🔑 ROS Noetic 설치 절차 (Ubuntu 20.04 focal)
 
+
+
 ROS Noetic을 쓰려면 반드시 Ubuntu 20.04 (focal)가 필요합니다.
 
 PowerShell에서:
@@ -43,7 +45,7 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-## 설치확인
+# ✅ 설치 확인
 
 ``` bash
 rosversion -d
